@@ -1,6 +1,6 @@
 /*utilitaire*/
 
-img,video{
+img,video,iframe{
     max-width: 100%;
     display: block;
     
@@ -23,7 +23,7 @@ html, body{
 }
 
 div.vodheader{
-    background-color: rgba(0, 89, 255, 0.308);
+    background-color: rgba(255, 255, 255, 0.308);
 }
 
 header{
@@ -36,6 +36,14 @@ header{
     position: relative;
 }
 
+header .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 header .container img{
     width: 6vw;
     /*filter: invert(100%);*/
@@ -44,9 +52,7 @@ header .container img{
 header .container h1{
     font-size: 5vw;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0;
 }
 
 .secswitch{
