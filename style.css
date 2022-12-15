@@ -189,7 +189,10 @@ header .container{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    background-color: rgba(0, 17, 255, 0.329);
+    border-radius: 5rem;
+    padding: 1rem;
+    margin: 0rem -10rem;
 }
 
 header .container img{
@@ -216,4 +219,15 @@ background-color:red;
 
 .textswitch{
     background-color: red;
+}
+
+main{
+    margin: auto;
+    padding: 0;
+    max-width: 50rem;
+    padding: 0 0.5rem;
+}
+
+footer{
+  background-image: url("images/bloc\ mario.png");
 }
