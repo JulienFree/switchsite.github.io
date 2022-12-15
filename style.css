@@ -225,5 +225,17 @@ main{
 }
 
 footer{
-  background-image: url("images/bloc\ mario.png");
+  background-image: url("images/bloc\ mario.png") ;
+  height: 100px;
+  background-size: 50px;
+}
+
+.square {
+  margin-top: 100px;
+  background-image: url("images/png-transparent-8-bit-super-mario-illustration-super-mario-bros-new-super-mario-bros-video-game-sprite-angle-super-mario-bros-text.png") ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 50px;
+  width: 50px;
+  margin-left:100px;
 }
