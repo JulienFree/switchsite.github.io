@@ -9,7 +9,11 @@ img,video,iframe{
 html, body{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+*{
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 /* MENU BURGER 2 */
@@ -140,7 +144,7 @@ footer{
 }
 
 .square {
-  margin-top: 100px;
+  margin-top: 3rem;
   background-image: url("images/png-transparent-8-bit-super-mario-illustration-super-mario-bros-new-super-mario-bros-video-game-sprite-angle-super-mario-bros-text.png") ;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -229,6 +233,15 @@ img {vertical-align: middle;}
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
+}
+
+.textfin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  margin-top: 3rem;
+  font-size: 1.5rem;
 }
 
 @keyframes fade {
